@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit';
 
-export const firstAction = createAction('CASE1');
+export const addContact = createAction('contacts/addContact');
 
-export const secondAction = createAction('CASE2');
+export const addFilter = createAction('filter/addFilter');
